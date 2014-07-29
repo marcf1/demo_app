@@ -1,2 +1,3 @@
 == NOTES
-Used rake db:migrate RAILS_ENV=production to fix "SQLite no such table" error in production, although it messes up the stylesheets somehow
+Used rake db:migrate RAILS_ENV=production to fix "SQLite no such table" error in production, although it messes up the stylesheets locally somehow
+Used heroku run rake db:migrate RAILS_ENV=production to get it working on Heroku, stylesheets seem fine there
